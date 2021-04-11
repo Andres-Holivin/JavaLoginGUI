@@ -1,0 +1,20 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class main {
+
+	static JFrame frame;
+	static JButton btn;
+	main(){
+		frame = new JFrame("Login");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(100, 100);
+		btn = new JButton();
+//		frame.getContentPane().add(btn);
+		frame.setVisible(true);
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

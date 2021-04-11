@@ -1,0 +1,31 @@
+import javax.swing.*;
+
+
+public class main {
+
+	JFrame frame;
+	JButton submit,cencel;
+	JPanel panel;
+	JLabel user_label,password_label,message;
+	JTextField Username_text;
+	JPasswordField password_text;
+	main(){
+		user_label=new JLabel();
+		user_label.setText("Username :");
+		Username_text=new JTextField();
+		frame = new JFrame("Login");
+		
+		password_label = new JLabel();
+		password_label.setText("Password :");
+		password_text=new JPasswordField();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(100, 100);
+		btn = new JButton();
+		frame.getContentPane().add(btn);
+		frame.setVisible(true);
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

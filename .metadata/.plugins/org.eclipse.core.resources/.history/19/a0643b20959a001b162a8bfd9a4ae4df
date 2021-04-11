@@ -1,0 +1,13 @@
+import javax.swing.JFrame;
+
+public class main {
+
+
+	public static void main(String[] args) {
+		Layout();
+	}
+	public static void Layout() {
+		JFrame frame = new JFrame("Login");
+	}
+
+}

@@ -1,0 +1,19 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class main {
+
+
+	public static void main(String[] args) {
+		Layout();
+	}
+	public static void Layout() {
+		JFrame frame = new JFrame("Login");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(100, 100);
+		JButton btn = new JButton();
+		frame.getContentPane().add(btn);
+		frame.setVisible(true);
+	}
+
+}
